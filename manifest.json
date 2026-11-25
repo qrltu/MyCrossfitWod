@@ -1,0 +1,21 @@
+{
+  "name": "MyCrossfitWod",
+  "short_name": "MyCFWod",
+  "start_url": "./?sharecode=SBB6EUCR4K",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#131311",
+  "theme_color": "#131311",
+  "icons": [
+    {
+      "src": "icon-192.png?sharecode=SBB6EUCR4K",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png?sharecode=SBB6EUCR4K",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
