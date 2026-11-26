@@ -4,7 +4,7 @@
 
 **MyCFWod** — 装在口袋里的 CrossFit 训练手册
 
-[![version](https://img.shields.io/badge/version-v2.16-9ece00?style=flat-square)](CHANGELOG.md)
+[![version](https://img.shields.io/badge/version-v2.17-9ece00?style=flat-square)](CHANGELOG.md)
 [![platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android%20%7C%20Web-4078c0?style=flat-square)](docs/USAGE.md)
 [![stack](https://img.shields.io/badge/stack-HTML%20%7C%20CSS%20%7C%20JavaScript-ef8c1c?style=flat-square)](#技术实现)
 [![license](https://img.shields.io/badge/license-Proprietary-d9534f?style=flat-square)](LICENSE)
@@ -35,6 +35,12 @@
 | **热身** | 5 套套路（举重日 / 体操技巧日 / 有氧与 WOD 日 / 无器械通用版等），可编辑、新增 |
 | **计时器** | 准备 → 锻炼 → 休息 → 完成状态机；支持 EMOM / AMRAP / Tabata / 间歇与「每 X 分钟 × N 组」等预设；项目清单歌词式高亮、轮转模式、蜂鸣提示、屏幕常亮 |
 | **字典** | 专业术语 13 条、技术模板 65 个、技术动作 176 个，三模块均可编辑、新增 |
+
+**多语言与外观**
+
+- **三语言界面**：简体 / 繁體 / English，首页顶部 🌐 循环切换，偏好本地保存；翻译仅作用于界面文案，训练数据与动作名保持原样，字典页签的中英双语对照始终保留。
+- **浅色外观**：首页顶部 ☀ 切换深 / 浅主题，全站生效并记忆。
+- **专业动作术语**：英文界面沿用 CrossFit 标准术语（Back Squat / Toes to Bar / Thrusters 等 176 条）。
 
 贯穿全站的辅助能力：
 
@@ -77,6 +83,8 @@
 | `rtkgHist` | 训练历史 | 数组 |
 | `rtkgTimerPresets` | 自定义计时预设 | 数组 |
 | `rtkgDataVer` | 数据结构版本号 | 数字 |
+| `rtkgLang` | 界面语言偏好（`zh` / `tw` / `en`） | 字符串 |
+| `rtkgTheme` | 外观主题偏好（`dark` / `light`） | 字符串 |
 
 **兼容性设计**
 

@@ -1,5 +1,5 @@
 const SC = 'sharecode=SBB6EUCR4K';
-const CACHE_NAME = 'crossfit-wod-v32';
+const CACHE_NAME = 'crossfit-wod-v33';
 const ASSETS = ['./?'+SC, './index.html?'+SC, './crossfit-offline.html?'+SC, './manifest.json?'+SC, './icon-192.png?'+SC, './icon-512.png?'+SC, './icon-180.png?'+SC];
 
 self.addEventListener('install', (event) => {
